@@ -1,0 +1,51 @@
+
+  /* ======== Navbar Style start =========*/
+
+.navbar{                     /* --- Navbar first class style --- */
+    text-transform: uppercase;
+    font-weight: 700;     /*   Font 700 = bold provide by Google font*/
+    font-size: 0.9rem;   /* 1rm = 16px  0.9 => 14.05px*/
+    letter-spacing: 0.1rem;
+    background: var(--navbar-color)!important;    /* --- Transparent Navbar  --- */
+  }
+  
+  .navbar .diary_logo{   /* ====== Navbar Logo Style ====*/
+    /*background-image: url('../images/diary_logo.png');*/
+    background-size: 100% 100%;   
+    margin: 0px;
+    padding:0px;
+    height: 3.5rem;
+    width: 4rem;
+  }
+  
+  .navbar li{
+    padding-right: .9rem;   /* --- Navbar items Padding from right --- */
+  }
+  
+  .navbar .navbar-nav .nav-link{
+    color: white;        /*  --- Change Navbar item color into White  with padding--- */       
+    padding-top: .8rem;
+  }
+  
+  /* === set the navbar  active item color as below in mouse hover state === */
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color: #1ebba3;
+  }
+  /* ======== Navbar Style finished =========*/
+
+  
+
+  /* ======== Footer Style start =========*/
+  .footer{
+    background-color: var(--navbar-color)!important;
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .footer p{
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
+  }

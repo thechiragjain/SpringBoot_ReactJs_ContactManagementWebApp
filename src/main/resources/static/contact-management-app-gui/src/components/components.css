@@ -1,0 +1,42 @@
+/* Global css */
+.page-body{
+    margin-top: 5rem;
+}
+
+.form-container{  
+    margin-top: 2rem;
+}
+
+.form-inner-container{
+    background-color: white;
+    border: 2px var(--form-title-bar) solid;
+    border-radius: .5rem;
+    padding: 0px;
+}
+
+.form-title-bar{
+    background-color: var(--form-title-bar);
+    width: 100%;
+    line-height: 2.5rem;
+    padding-left: .5rem;
+}
+
+.form-inner-container form{
+    padding : 10px;
+}
+.link-text{
+    font-size: 1rem;
+    padding-left: 3.5rem;
+}
+
+
+
+
+
+/* -----User Registration Form validation CSS  ----*/
+.validation-feedback{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px; 
+}
+
